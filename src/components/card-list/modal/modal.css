@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Poppins:wght@300;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Poppins:wght@300;600&family=Raleway:wght@300&display=swap');
+.modal {
+    position: fixed;
+    left: 50%;
+    top: 54%;
+    transform: translate(-50%, -50%);
+    width: 40%;
+    display: inline-flex;
+    vertical-align: middle;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.6rem 2rem;
+    border: 3px solid black;
+    border-radius: 5px;
+    background-color: #8C7DEA;
+    box-shadow: 8px 8px 0 rgba(0, 0, 0, 0.2);
+    z-index: 3;
+    overflow: hidden;
+    font-weight: 600;
+    color: black;
+    backdrop-filter: blur(8px);
+    pointer-events: all !important;
+
+}
+
+.message {
+    font-size: 16px;
+}
+
+.btn {
+    color: inherit;
+    font-family: inherit;
+    font-size: inherit;
+    background: white;
+    padding: 0.3rem 3.4rem;
+    border: 1px solid whitesmoke;
+    margin-right: 2.6rem;
+    box-shadow: 0 0 0 black;
+    transition: all 0.2s;
+    background-color: red;
+    font-weight: 500;
+}
+.link{
+    text-decoration:none;
+    color: black;
+    background-color: #f6c70a;
+}
+.btn:last-child {
+    margin: 0;
+}
+
+.btn:hover {
+    box-shadow: 0.4rem 0.4rem 0 black;
+    transform: translate(-0.4rem, -0.4rem);
+}
+
+.btn:active {
+    box-shadow: 0 0 0 black;
+    transform: translate(0, 0);
+}
+
+.options {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.nft-image {
+    width: 180px;
+    height: 180px;
+    border: 1px solid black;
+}
+.nft-details{
+    width: 100%;
+    font-family: 'Raleway', sans-serif;
+}
+.description{
+    text-align: justify;
+    text-justify: inter-word;
+    font-family: 'Poppins', sans-serif;
+}

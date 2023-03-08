@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Poppins:wght@300;600&display=swap');
+.card-container{
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    border: 5px solid grey;
+    border-radius: 5px;
+    padding: 0px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.card-container:hover{
+    background-color: #58D0EA;
+    transform: translateY(-5px);
+}
+.nft-image{
+    width: 180px;
+    height: 180px;
+    border: 1px solid black;
+}
+.nft-title{
+    font-family: 'Poppins', sans-serif;
+}
