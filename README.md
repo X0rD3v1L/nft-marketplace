@@ -4,6 +4,10 @@ URL - [nft-marketplace-doodle.netlify.app/](https://nft-marketplace-doodle.netli
 
 In this task I designed a web page to show Doodles NFT collection 
 
+## Data:
+
+NFT Collections data is taken from Binance NFT.
+
 ## Libraries Used:
 
 react-lazy-load-image-component
