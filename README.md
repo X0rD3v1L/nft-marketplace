@@ -1,5 +1,7 @@
 # NFT MarketPlace App of Doodles collection
 
+URL - https://github.com/X0rD3v1L/nft-marketplace
+
 In this task I designed a web page to show Doodles NFT collection 
 
 ## Libraries Used:
