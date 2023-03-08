@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="App">
       <h1>NFT Marketplace</h1>
-      <CardList/>
+      <CardList />
     </div>
   );
 }

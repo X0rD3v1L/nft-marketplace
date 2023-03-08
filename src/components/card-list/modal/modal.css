@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Poppins:wght@300;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Poppins:wght@300;600&family=Raleway:wght@300&display=swap');
+
 .modal {
     position: fixed;
     left: 50%;
@@ -40,12 +41,15 @@
     transition: all 0.2s;
     background-color: red;
     font-weight: 500;
+    cursor: pointer;
 }
-.link{
-    text-decoration:none;
+
+.link {
+    text-decoration: none;
     color: black;
     background-color: #f6c70a;
 }
+
 .btn:last-child {
     margin: 0;
 }
@@ -71,11 +75,13 @@
     height: 180px;
     border: 1px solid black;
 }
-.nft-details{
+
+.nft-details {
     width: 100%;
     font-family: 'Raleway', sans-serif;
 }
-.description{
+
+.description {
     text-align: justify;
     text-justify: inter-word;
     font-family: 'Poppins', sans-serif;
